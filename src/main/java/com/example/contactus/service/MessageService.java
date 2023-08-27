@@ -26,9 +26,9 @@ public class MessageService {
 
     public ResponseEntity<String> saveMessage(Message message) throws FirebaseMessagingException {
         String response = "Failure";
-        if((!message.getMessage().equals("") || message.getMessage()!=null) &&
-                (!message.getName().equals("") || message.getName()!=null) &&
-                (!message.getEmail().equals("") || message.getEmail()!=null)
+        if((!message.getMessage().equals("") && message.getMessage()!=null) &&
+                (!message.getName().equals("") && message.getName()!=null) &&
+                (!message.getEmail().equals("") && message.getEmail()!=null)
         ) {
             //save the message
             messageRepository.save(message);
