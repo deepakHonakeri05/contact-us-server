@@ -17,7 +17,7 @@ public class NotificationService {
 
         Notification notification = Notification
                 .builder()
-                .setTitle(message.getName()+" "+message.getEmail())
+                .setTitle(message.getName())
                 .setBody(message.getMessage())
                 .build();
 
