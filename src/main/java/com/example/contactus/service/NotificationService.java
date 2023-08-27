@@ -13,7 +13,7 @@ public class NotificationService {
     }
 
 
-    public String sendNotification(com.example.contactus.model.Message message) throws FirebaseMessagingException {
+    public String sendNotification(com.example.contactus.model.Message message, String topic) throws FirebaseMessagingException {
 
         Notification notification = Notification
                 .builder()
@@ -23,6 +23,7 @@ public class NotificationService {
 
         Message messageNotification = Message
                 .builder()
+                .setTopic(topic)
                 .setNotification(notification)
                 .build();
 

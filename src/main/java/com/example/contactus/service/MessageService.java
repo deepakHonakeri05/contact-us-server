@@ -32,7 +32,8 @@ public class MessageService {
         ) {
             //save the message
             messageRepository.save(message);
-            response = notificationService.sendNotification(message);
+            response = notificationService.sendNotification(message,"notificationChannel");
+            System.out.println("Sent notification to me!");
         }
         return new ResponseEntity<>(response, HttpStatus.OK);
     }

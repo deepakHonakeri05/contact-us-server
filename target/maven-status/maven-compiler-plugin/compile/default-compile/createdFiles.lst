@@ -1,5 +1,6 @@
-com/example/contactus/controller/MessageController.class
 com/example/contactus/service/MessageService.class
 com/example/contactus/repository/MessageRepository.class
-com/example/contactus/ContactusApplication.class
 com/example/contactus/model/Message.class
+com/example/contactus/service/NotificationService.class
+com/example/contactus/controller/MessageController.class
+com/example/contactus/ContactusApplication.class

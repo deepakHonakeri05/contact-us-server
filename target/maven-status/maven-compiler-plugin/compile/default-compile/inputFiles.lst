@@ -1,5 +1,6 @@
 /Users/deepak/utd/projects/contactus/src/main/java/com/example/contactus/ContactusApplication.java
 /Users/deepak/utd/projects/contactus/src/main/java/com/example/contactus/service/MessageService.java
 /Users/deepak/utd/projects/contactus/src/main/java/com/example/contactus/repository/MessageRepository.java
+/Users/deepak/utd/projects/contactus/src/main/java/com/example/contactus/service/NotificationService.java
 /Users/deepak/utd/projects/contactus/src/main/java/com/example/contactus/controller/MessageController.java
 /Users/deepak/utd/projects/contactus/src/main/java/com/example/contactus/model/Message.java
